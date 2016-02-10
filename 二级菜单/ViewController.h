@@ -8,7 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
+
+@property (nonatomic,strong)NSMutableArray * FirstLvTitleArray;
+
+@property (nonatomic,strong)NSMutableArray * SecondLvDataArray;
+
+@property (nonatomic,strong)UICollectionView * leftCollectionView;
+
+@property (nonatomic,strong)UITableView * rightTable;
+
 
 
 @end

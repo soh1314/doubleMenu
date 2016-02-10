@@ -15,6 +15,12 @@
 		FC9271151C6B47BB0024F9F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9271131C6B47BB0024F9F4 /* LaunchScreen.storyboard */; };
 		FC9271201C6B47BC0024F9F4 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC92711F1C6B47BC0024F9F4 /* ____Tests.m */; };
 		FC92712B1C6B47BC0024F9F4 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC92712A1C6B47BC0024F9F4 /* ____UITests.m */; };
+		FC92713A1C6B4E3D0024F9F4 /* RightMemuTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9271391C6B4E3D0024F9F4 /* RightMemuTableCell.m */; };
+		FC92713E1C6B4F160024F9F4 /* LeftMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC92713C1C6B4F160024F9F4 /* LeftMenuCell.m */; };
+		FC92713F1C6B4F160024F9F4 /* LeftMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC92713D1C6B4F160024F9F4 /* LeftMenuCell.xib */; };
+		FC9271451C6B68010024F9F4 /* collectionStyleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9271441C6B68010024F9F4 /* collectionStyleCell.m */; };
+		FC92714C1C6B69D10024F9F4 /* FourCellCol.m in Sources */ = {isa = PBXBuildFile; fileRef = FC92714A1C6B69D10024F9F4 /* FourCellCol.m */; };
+		FC92714D1C6B69D10024F9F4 /* FourCellCol.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC92714B1C6B69D10024F9F4 /* FourCellCol.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,16 @@
 		FC9271261C6B47BC0024F9F4 /* 二级菜单UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "二级菜单UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC92712A1C6B47BC0024F9F4 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		FC92712C1C6B47BC0024F9F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9271381C6B4E3D0024F9F4 /* RightMemuTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightMemuTableCell.h; sourceTree = "<group>"; };
+		FC9271391C6B4E3D0024F9F4 /* RightMemuTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightMemuTableCell.m; sourceTree = "<group>"; };
+		FC92713B1C6B4F160024F9F4 /* LeftMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuCell.h; sourceTree = "<group>"; };
+		FC92713C1C6B4F160024F9F4 /* LeftMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuCell.m; sourceTree = "<group>"; };
+		FC92713D1C6B4F160024F9F4 /* LeftMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftMenuCell.xib; sourceTree = "<group>"; };
+		FC9271431C6B68010024F9F4 /* collectionStyleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collectionStyleCell.h; sourceTree = "<group>"; };
+		FC9271441C6B68010024F9F4 /* collectionStyleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = collectionStyleCell.m; sourceTree = "<group>"; };
+		FC9271491C6B69D10024F9F4 /* FourCellCol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FourCellCol.h; path = ../FourCellCol.h; sourceTree = "<group>"; };
+		FC92714A1C6B69D10024F9F4 /* FourCellCol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FourCellCol.m; path = ../FourCellCol.m; sourceTree = "<group>"; };
+		FC92714B1C6B69D10024F9F4 /* FourCellCol.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FourCellCol.xib; path = ../FourCellCol.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +121,16 @@
 				FC9271091C6B47BB0024F9F4 /* AppDelegate.m */,
 				FC92710B1C6B47BB0024F9F4 /* ViewController.h */,
 				FC92710C1C6B47BB0024F9F4 /* ViewController.m */,
+				FC9271491C6B69D10024F9F4 /* FourCellCol.h */,
+				FC92714A1C6B69D10024F9F4 /* FourCellCol.m */,
+				FC92714B1C6B69D10024F9F4 /* FourCellCol.xib */,
+				FC9271431C6B68010024F9F4 /* collectionStyleCell.h */,
+				FC9271441C6B68010024F9F4 /* collectionStyleCell.m */,
+				FC9271381C6B4E3D0024F9F4 /* RightMemuTableCell.h */,
+				FC9271391C6B4E3D0024F9F4 /* RightMemuTableCell.m */,
+				FC92713B1C6B4F160024F9F4 /* LeftMenuCell.h */,
+				FC92713C1C6B4F160024F9F4 /* LeftMenuCell.m */,
+				FC92713D1C6B4F160024F9F4 /* LeftMenuCell.xib */,
 				FC92710E1C6B47BB0024F9F4 /* Main.storyboard */,
 				FC9271111C6B47BB0024F9F4 /* Assets.xcassets */,
 				FC9271131C6B47BB0024F9F4 /* LaunchScreen.storyboard */,
@@ -244,6 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC9271151C6B47BB0024F9F4 /* LaunchScreen.storyboard in Resources */,
+				FC92713F1C6B4F160024F9F4 /* LeftMenuCell.xib in Resources */,
+				FC92714D1C6B69D10024F9F4 /* FourCellCol.xib in Resources */,
 				FC9271121C6B47BB0024F9F4 /* Assets.xcassets in Resources */,
 				FC9271101C6B47BB0024F9F4 /* Main.storyboard in Resources */,
 			);
@@ -270,8 +298,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC92713E1C6B4F160024F9F4 /* LeftMenuCell.m in Sources */,
 				FC92710D1C6B47BB0024F9F4 /* ViewController.m in Sources */,
+				FC92713A1C6B4E3D0024F9F4 /* RightMemuTableCell.m in Sources */,
+				FC9271451C6B68010024F9F4 /* collectionStyleCell.m in Sources */,
 				FC92710A1C6B47BB0024F9F4 /* AppDelegate.m in Sources */,
+				FC92714C1C6B69D10024F9F4 /* FourCellCol.m in Sources */,
 				FC9271071C6B47BB0024F9F4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
